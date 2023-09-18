@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensive Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <h2 style="text-align: center; margin-bottom: 20px;">CALCULATOR</h2>
+        <hr style="margin-bottom: 30px; opacity: 0.3;"/>
+        <div class="display">
+           
+            <input type="text" id="result" readonly>
+        </div>
+        <div class="buttons">
+            
+            <button onclick="clearResult()">AC</button>
+            <button onclick="appendToResult('7')">7</button>
+            <button onclick="appendToResult('8')">8</button>
+            <button onclick="appendToResult('9')">9</button>
+            <button onclick="appendToResult('+')">+</button>
+            <button onclick="appendToResult('4')">4</button>
+            <button onclick="appendToResult('5')">5</button>
+            <button onclick="appendToResult('6')">6</button>
+            <button onclick="appendToResult('-')">-</button>
+            <button onclick="appendToResult('1')">1</button>
+            <button onclick="appendToResult('2')">2</button>
+            <button onclick="appendToResult('3')">3</button>
+            <button onclick="appendToResult('*')">*</button>
+            <button onclick="appendToResult('0')">0</button>
+            <button onclick="appendToResult('.')">.</button>
+            <button onclick="calculateResult()">=</button>
+            <button onclick="appendToResult('/')">/</button>
+        </div>
+        <div class="memory">
+            <button onclick="storeInMemory()">M+</button>
+            <button onclick="recallFromMemory()">MR</button>
+            <button onclick="clearMemory()">MC</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

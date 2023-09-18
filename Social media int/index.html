@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/d0e7dbb5dc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="myheader">
+        <h1>KUNAL NAKASHE</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <nav>
+        <!-- nav section -->
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div id="home">
+       <h2> Welcome to my Portfolio </h2>
+            <div class="btns">
+                <button class="btn1"  id="hireMeButton">Hire Me </button>
+                <button class="btn1" id="downloadButton">Download Resume</button>
+            </div>
+    </div>
+    <!-- About Section -->
+
+    <section id="about">
+        <img id="image" src="kunal.jpg" alt="my image"/>
+    <div class="aboutme">
+        <h2>About Me</h2>
+        <p>hello <br/> <br/>My name is kunal nakashe and i am from amravati maharashtra<br/><br/>
+        i have recently completed my graduation in bsc cs.<br/><br/> i am proficient in html ,css ,javascript and i have basic knowledge <br/><br/>
+        of react , node ,express and mongo db </p>
+    </div>
+    </section>
+
+    <!-- projects section -->
+
+    <h2 style="text-align: center;margin-top: 70px;">PROJECTS</h2>
+    <section id="portfolio">
+        <div class="card">
+            <img src="To-do.jpg" alt="To-Do"/>
+            <hr/>
+            <h2>
+                To-Do List App
+            </h2>
+            <p>
+               Insert you task that need to be completed ,
+               also remove it after it done
+            </p>
+            <button class="btn" ><a href="https://github.com/Kunal-Nakashe02/-UN-code-.git">View</a></button>
+        </div>
+        <div class="card">
+            <img src="quiz.jpg" alt="quiz"/>
+            <hr/>
+            <h2>
+                Quiz App
+            </h2>
+            <p>
+                To improve your knowledge and its totally like a test .
+            </p>
+            <button class="btn" ><a href="https://github.com/Kunal-Nakashe02/-UN-code-.git">View</a></button>       
+         </div>
+        <div class="card">
+            <img src="product.jpg" alt="Inventory"/>
+            <hr/>
+            <h2>
+                Inventory App
+            </h2>
+            <p>
+                Insert and store product information , retrive data of the product as needed 
+            </p>
+            <button class="btn" ><a>View</a></button>
+        </div>
+        
+    </section>
+
+
+    <!-- contact section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        
+        <hr/>
+        <div class="contact-form">
+            <form id="contactForm" action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+    
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-logo">
+        <img src="treue.jpg" alt="Treue Technologies Logo">
+        <p>Treue Technologies</p>
+      </div>
+      
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <p> Hinjewadi Phase 1, </p>
+        <p>Pune, 411057. India</p>
+        <p>Email:  services@treutech.com. </p>
+        <p>P10 AM – 5 PM. © Copyright Treue Technologies</p>
+      </div>
+    </div>
+    
+    <div class="footer-social">
+      <h4>Follow Us</h4>
+      <ul>
+        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+    
+    <div class="footer-copyright">
+      <p>&copy; 2023 Treue Technologies.</p>
+    </div>
+  </footer>
+  
+     <!-- download resume functionality -->
+
+     <script src="script.js"></script>
+</body>
+</html>
